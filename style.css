@@ -1,0 +1,68 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0 auto;
+    width: 950px;
+}
+    
+h1 , h2{
+    color: darkmagenta;
+    text-align: center;
+}
+a:link , a:visited{
+    text-decoration: none;
+    color: darkmagenta;
+    font-weight: bold;
+}
+a:hover{
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    float: left;
+    padding: 0;
+}
+nav a:link ,nav a:visited{
+    background-color: darkmagenta;
+    color: white;
+    display: block;
+    width: 180px;
+    text-align: center;
+    padding: 10px 20px;
+}
+nav a:hover{
+    background-color: black;
+}
+aside{
+    width: 280px;
+    float: right;
+    background-color: thistle;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 20px;
+}
+.car{
+    float: left;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+.first-car{
+    float: right;
+    margin-left: 25px;
+    margin-top: 60px;
+}
+figcaption{
+    font-style: oblique;
+}
+.bg{
+    background-image: linear-gradient(to right, #c2e59c, #64b3f4);
+}
+.bg-1{
+    background-image: linear-gradient(to right, rgb(0, 159, 255), rgb(236, 47, 75));
+}
+.bg-2{
+    background-image: linear-gradient(to right, #c9ffbf, #ffafbd);
+}
