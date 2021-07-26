@@ -66,3 +66,37 @@ figcaption{
 .bg-2{
     background-image: linear-gradient(to right, #c9ffbf, #ffafbd);
 }
+.bg-3{
+    background-image: linear-gradient(to right, #feac5e, #c779d0, #4bc0c8);
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+  }
+  label{
+      color: darkmagenta;
+      font-weight: bold;
+  }
+
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  video{
+      margin-bottom: 20px;
+      margin-left: 160px;
+  }
